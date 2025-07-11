@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="header">
+            <h1 class="title">
+                Pratiquez le HTML & CSS
+            </h1>
+            <nav>
+                <ul class="link">
+                    <li class="list"><a href="#accueil">Accueil</a></li>
+                    <!-- mettre le liens de la page, j'ai mis une id en attendant -->
+                    <li class="list"><a href="#typographie">Typographie</a></li>
+                    <li class="list"><a href="#formulaire">Formulaire</a></li>
+                    <li class="list"><a href="#position">Position</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main class="main">
+        <section class="boxMenu" id="accueil">
+            <div class="menu first" id="typographie">
+                <div>
+                    <img src="./assets/illustration/typo.jpg" alt="Personne qui ecris" class="imgIllu">
+                </div>
+                <article class="article">
+                    <h2>Exercice Typographie</h2>
+                    <p>Pratiquez la gestion des tailles de texte (<strong>px, %, em, rem</strong>) sur cette page dédiée</p>
+                    <span><a href="./indexTypo.html" target="_blank" class="button">Pratiquer</a></span> 
+                    <!-- mettre balise a pour faire un boutton -->
+                </article>
+            </div>
+            <div class="menu second" id="formulaire">
+                <div>
+                    <img src="./assets/illustration/form.jpg" alt="personne qui ecris un formulaire" class="imgIllu">
+                </div>
+                <article class="article">
+                    <h2>Exercice Formulaire</h2>
+                    <p>Entraînez-vous à créer et styliser un formulaire simple et moderne</p>
+                    <span><a href="https://www.systeme-de-design.gouv.fr/version-courante/fr/communaute/exemple-de-sites" target="_blank" class="button">Pratiquer</a></span>
+                </article>
+            </div>
+            <div class="menu third" id="position">
+                <div>
+                    <img src="./assets/illustration/positionnement.jpg" alt="petit ailier de 1m65 qui ce repositionne pour echanger avec le piston car le coach trouve qu'il est nul en offensif" class="imgIllu">
+                </div>
+                <article class="article">
+                    <h2>Exercice Positionnement</h2>
+                    <p>Experimentez avec les propriétés <strong>relatives</strong> et <strong>absolute</strong> sur une page dédiée</p>
+                    <span><a href="https://www.systeme-de-design.gouv.fr/version-courante/fr/communaute/exemple-de-sites" target="_blank" class="button">Pratiquer</a></span>
+                </article>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer">
+            <span class="copy"> 2025 Pratique HTML/CSS - Exercice Flexbox</span>
+        </div>
+    </footer>   
+</body>
+</html>
