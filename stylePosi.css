@@ -1,0 +1,53 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.header{
+    color: white;
+    width: 100%;
+    height: 200px;
+    background-image: url(./assets/background/galaxieTest2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+.title{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    margin: 0px 20px 40px;
+}
+.link{
+    display: flex;
+    justify-content: space-between;
+    align-items: first baseline;
+    margin: 30px;
+}
+.list{
+    display: flex;
+    margin: 10px 10px;
+    color: white;
+}
+main{
+    background-color: whitesmoke;
+}
+.box{
+    background-color: white;
+    height: 300px;
+    width: 300px;
+}
+.absolut{
+    background-color: red;
+    height: 100px;
+    width: 100px;
+}
